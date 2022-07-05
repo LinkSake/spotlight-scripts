@@ -17,8 +17,12 @@ echo "Getting your news 🌎..."
 open -j -a NetNewsWire
 echo "Getting your messages 💬..."
 open -j -a WhatsApp
-echo "Logging into the office 🧑‍💻..."
-open -j -a Brave\ Browser --args --new-window "https://mail.google.com/chat/u/1/" 
+open -j -a Telegram
+open -j -a Slack
+echo "Opening utilities 🛠"
+open -j -a Bike
+open -j -a Linear
+open -j -a Brave\ Browser
 
 echo "All done!"
 echo "Enjoy your morning ☀️"
