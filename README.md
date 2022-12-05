@@ -6,7 +6,7 @@ A collection of scripts that can be executed via Spotlight.
 
 ### Permitions
 
-All the scripts need permitions to be executable by the user, this can be done by running `chmod -R u+x .` on the root directory of the project.
+All the scripts need permitions to be executable by the user, this can be done by running `chmod -R u+x .` on the root directory of the project or using the `chmod-x-all.sh` script.
 
 > All new scripts should be given permition after creation.
 
@@ -21,12 +21,17 @@ Use the keybinding to open Spotlight (`cmd` + `space` by default) and type the n
 ## Scripts
 
 ```zsh
+├── chmod-x-all.sh # Makes every script on the folder executable from spotlight
+├── personal
+│   ├── mk-demo.sh.command # Converts every .mov file in the desktop to .mp4
+│   └── morning.sh.command # Daily morning setup
 ├── spotify
 │   ├── next.sh.command # Skips to next track on the queue
 │   ├── pause.sh.command # Pauses current track
 │   ├── play.sh.command # Plays current track
 │   └── prev.sh.command # Rollback to previous track
 └── system
+    ├── quit-all.sh.command # Quits all open apps
     ├── screensaver.sh.command # Sets the screensaver on all screens
     ├── shutdown.sh.command # Shuts down the system after prompting the password
     └── sleep.sh.command # Sleeps the system
@@ -38,7 +43,7 @@ Scripts that would be nice to make:
 
 - Empty trash.
 - Close specific app (like on Alfred).
-- Close all apps.
+- Close all apps (WIP).
 - Play a song on Spotify by name.
 
 ## Acknowledgements
