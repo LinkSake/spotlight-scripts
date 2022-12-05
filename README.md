@@ -41,7 +41,6 @@ Use the keybinding to open Spotlight (`cmd` + `space` by default) and type the n
 
 Scripts that would be nice to make:
 
-- Empty trash.
 - Close specific app (like on Alfred).
 - Close all apps (WIP).
 - Play a song on Spotify by name.
