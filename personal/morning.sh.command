@@ -18,9 +18,10 @@ open -j -a NetNewsWire
 echo "Getting your messages 💬..."
 open -j -a WhatsApp
 open -j -a Telegram
+open -j -a Messenger
 open -j -a Slack
 echo "Opening utilities 🛠"
-open -j -a Bike
+open -j -a Calendar
 open -j -a Linear
 open -j -a Brave\ Browser
 
