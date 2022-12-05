@@ -31,6 +31,7 @@ Use the keybinding to open Spotlight (`cmd` + `space` by default) and type the n
 │   ├── play.sh.command # Plays current track
 │   └── prev.sh.command # Rollback to previous track
 └── system
+    ├── empty-trash.sh.command # Empties the trash bin
     ├── quit-all.sh.command # Quits all open apps
     ├── screensaver.sh.command # Sets the screensaver on all screens
     ├── shutdown.sh.command # Shuts down the system after prompting the password
