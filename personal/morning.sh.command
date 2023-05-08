@@ -24,6 +24,7 @@ echo "Opening utilities 🛠"
 open -j -a Calendar
 open -j -a Linear
 open -j -a Brave\ Browser
+open -j -a Reminders
 
 echo "All done!"
 echo "Enjoy your morning ☀️"
